@@ -268,7 +268,6 @@ a{
     display: grid;
     grid-template-columns: repeat(3,370px);
     margin: 0px 230px;
-    border: 2px solid red;
     margin-right: 30px;
     
 }

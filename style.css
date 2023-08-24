@@ -1,0 +1,847 @@
+*{
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-image: url("");
+    /* font-family: Arial, Helvetica, sans-serif; */
+    
+    
+    
+}
+  
+header{  
+    background-color: #04032D;
+    height: 60px;  
+    width: 100%;
+    color: aliceblue;
+    /* display: flex; */
+    
+
+}
+header li {  
+    display: inline;
+    margin: 20px; 
+    
+}  
+header li a {  
+    text-decoration: none; 
+    color: aliceblue; 
+}
+header li a:hover{
+    color: #286CD5;
+    padding-bottom: 10px;
+    border-bottom: 10px solid #286CD5;
+    
+
+} 
+.cta{
+    display: flex;
+    justify-content: center;
+    padding-left: 18px;
+    align-items: center;
+    background-image:linear-gradient(90.06deg, #4332A3 0.03%, #286CD5 90.98%);
+    width: 100%;
+}
+.img1{
+    display: flex;   
+}
+.re{
+    padding-top: 19px;
+    padding-left: 5px;
+    color: #00FFD1;
+    text-decoration: underline;
+    padding-right: 35px;
+}
+
+.re1{
+    padding-top: 19px;
+    padding-left: 5px;
+    color: #374BB9;
+    border-left: 1px solid white;
+    height: 1vh;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    padding-right: 15px;
+    
+    
+}
+
+.text{
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    /* padding-top: 5px; */
+}
+.btn{
+    background-color: #00FFD1;
+    height: 40px;
+    width: 100px;
+    padding-left: 10px;
+    border: 3px solid #4332A3;
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+    color: #4332A3;
+}
+.nav1{
+    background-color: #04032D;
+    position: relative;
+    font-size: large; 
+}
+.btn2{
+    background-color:#04032D;
+    padding: 10px;
+    margin: auto;
+    border: 3px solid #4332A3;
+    width: 100px;
+    height:40px;
+}
+
+.btn2 a{
+    
+    color: aliceblue;
+}
+.btn3{
+    background-color: aliceblue;
+    width: 100px;
+    height:40px;
+}
+.btn3 a{
+    color:#4332A3;
+}
+.tst{
+    background-color: #04032D;
+    display: flex;
+}
+.tsttext{
+    background-color: #04032D;
+    padding-top:200px ;
+    padding-left: 150px;
+    width: 100%;
+
+}
+.tstimg{
+    width: 50%;
+    padding-right: 15%;
+    padding-top: 8%;
+}
+.tsttext h1{
+    color: aliceblue;
+    font-size: 50px;
+}
+.tsttext h2{
+    font-size: 50px;
+    color: #00FFD1;
+}
+.tsttext h3{
+    padding-top: 20px;
+    font-size: 20px;
+    color: grey;
+}
+.tst2{
+    background-color: aliceblue;
+    color: #00FFD1;
+}
+.btn4{
+    background-color: #2b84ea;
+    border-radius: 8px;
+    width: 120px;
+    height:40px;
+    border: none;
+    
+}
+.img3d{
+    background-color: white;
+    z-index: 0;
+}
+.img2d{
+    position: relative;
+    bottom: 128px;
+    padding-left: 150px;
+    z-index: -1;
+}
+.img4d{
+    position: relative;
+    rotate: 180deg;
+    padding-right: 280px;
+    top: 50px;
+
+}
+.btn4 a{
+    
+    color: aliceblue;
+}
+.dash{
+    display: flex;
+}
+.fck{
+    position: relative;
+    left: 49%;
+    bottom: 150px;
+    font-size: 20px;
+    color: #00FFD1;
+}
+.dash h2{
+    padding-left: 130px;
+}
+.txtpic{
+    position: relative;
+    bottom: 55px;
+    /* margin-bottom: 220px; */
+    margin-left: 230px;
+    margin-right: 230px;
+    display: flex;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    background-color: white;
+}
+.rr{
+    color: #2b84ea;
+}
+.pictxt{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.txt1{
+    font-size: 20px;
+    /* border: 1px solid red; */
+    width: 316px;
+}
+.txt2{
+    /* border: 1px solid red; */
+
+}
+.txt2 li{
+    list-style: none;
+    margin: 20px;
+    position: relative;
+    right: 55px;
+}
+.txtbtn{
+    position: relative;
+    top: 30px;
+}
+.btn5{
+    background-color:#2B84EA;
+    height: 40px;
+    color: white;
+    width: 130px;
+    border-radius: 3px;
+    border: none;
+}
+.btn6{
+    background-color: white;
+    height: 40px;
+    width: 130px;
+    border: none;
+    
+}
+.ff{
+    color: white;
+    transform: rotate(125deg);
+    border-bottom: 2px solid rgb(140,255,205);
+    border-right: 2px solid rgb(140,255,205);
+}
+.ff{
+    /* transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); */
+    display: inline-block;
+    rotate: -70deg;
+}
+/* .ppff{
+    width: 71.5%;
+} */
+.main{
+    /* border: 2px solid blue; */
+    margin-bottom: 40px;
+}
+.ppff{
+    display: grid;
+    grid-template-columns: repeat(3,370px);
+    margin: 0px 230px;
+    border: 2px solid red;
+    margin-right: 30px;
+    
+}
+.ppff :hover{
+    box-shadow: 1px 1px 10px 4px rgba(185, 185, 185, 0.2);
+}
+/* .cg{
+    margin: 34px;
+    margin-right: 70px;
+} */
+.cut{
+    /* border: 2px solid red; */
+    /* width: 150%;main */
+    /* rotate: 70deg; */
+}
+/* .pp{
+    width: 71.5%;
+    position: relative
+    bottom: 210px;
+    display: flex;
+   
+    margin-left: 230px;
+    margin-right: 230px;
+    justify-content: space-around;
+
+} */
+.pp1{
+    /* border: 2px solid red; */
+    width:60%;
+    border: 1px solid  #E2E2E2;
+    padding:50px ;
+    position: relative;
+    left: 27px;
+    font-size: 21px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.pp1 h1{
+    position: relative;
+    right: 29px;
+    
+    color: #162F56;
+    font-size: 21px;
+    position: relative;
+    bottom: 25px;
+    
+}
+.pp1 p{
+    position: relative;
+    right: 29px;
+    color: #868A9B;
+    font-size: 16px;
+}
+.pp1 button{
+    position: relative;
+    top: 30px;
+    right: 49px;
+    
+    font-size: 15px;
+    color: #1678E8;
+    
+
+}
+
+.pp2{
+    /* border: 2px solid red; */
+    width: 60%;
+    padding:50px ;
+    font-size: 21px;
+    margin: 15px;
+    border-radius: 5px;
+    position: relative;
+    left: 27px;
+    /* bottom: 100px; */
+    border: 1px solid  #E2E2E2;
+}
+.pp2 h1{
+    position: relative;
+    right: 29px;
+    color: #162F56;
+    font-size: 21px;
+    position: relative;
+    bottom: 25px;
+    
+}
+ .pp2 p{
+    position: relative;
+    right: 29px;
+    color: #868A9B;
+    font-size: 16px;
+}
+.pp2 button{
+    position: relative;
+    top: 29px;
+    right: 49px;
+    font-size: 15px;
+    color: #1678E8;
+    
+
+}
+.pp3{
+    position: relative;
+    left: 27px;
+    /* border: 2px solid red; */
+    width: 60%;
+    padding:50px ;
+    font-size: 21px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid  #E2E2E2;
+}
+.pp3 h1{
+    position: relative;
+    right: 29px;
+    color: #162F56;
+    font-size: 21px;
+    position: relative;
+    bottom: 25px;
+    
+}
+.pp3 p{
+    position: relative;
+    right: 29px;
+    color: #868A9B;
+    font-size: 16px;
+}
+.pp3 button{
+    position: relative;
+    top: 29px;
+    right: 49px;
+    font-size: 15px;
+    color: #1678E8;
+    
+
+}
+.pf1{
+    /* border: 2px solid red; */
+    width:60%;
+    border: 1px solid  #E2E2E2;
+    padding:50px ;
+    position: relative;
+    left: 27px;
+    font-size: 21px;
+    margin: 15px;
+    border-radius: 5px;
+    
+}
+.try{
+    position: relative;
+    bottom: 50px;
+
+}
+.pf1 h1{
+    position: relative;
+    right: 29px;
+    
+    color: #162F56;
+    font-size: 21px;
+    position: relative;
+    bottom: 25px;
+    
+}
+.pf1 p{
+
+    position: relative;
+    right: 29px;
+    color: #868A9B;
+    font-size: 16px;
+}
+.pf1 button{
+    position: relative;
+    top: 30px;
+    right: 49px;
+    
+    font-size: 15px;
+    color: #1678E8;
+    
+
+}
+
+.pf2{
+    /* border: 2px solid red; */
+    width: 60%;
+    padding:50px ;
+    font-size: 21px;
+    margin: 15px;
+    border-radius: 5px;
+    position: relative;
+    left: 27px;
+    border: 1px solid  #E2E2E2;
+}
+.pf2 h1{
+    position: relative;
+    right: 29px;
+    color: #162F56;
+    font-size: 21px;
+    position: relative;
+    bottom: 25px;
+    
+}
+ .pf2 p{
+    position: relative;
+    right: 29px;
+    color: #868A9B;
+    font-size: 16px;
+}
+.pf2 button{
+    position: relative;
+    top: 29px;
+    right: 49px;
+    font-size: 15px;
+    color: #1678E8;
+    
+
+}
+.pf3{
+    position: relative;
+    left: 27px;
+    /* border: 2px solid red; */
+    width: 60%;
+    padding:50px ;
+    font-size: 21px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid  #E2E2E2;
+}
+.pf3 h1{
+    position: relative;
+    right: 29px;
+    color: #162F56;
+    font-size: 21px;
+    position: relative;
+    bottom: 25px;
+    
+}
+.pf3 p{
+    position: relative;
+    right: 29px;
+    color: #868A9B;
+    font-size: 16px;
+}
+.pf3 button{
+    position: relative;
+    top: 29px;
+    right: 49px;
+    font-size: 15px;
+    color: #1678E8;
+    
+
+}
+/* .pf{
+    width: 71.5%;
+    position: relative;
+    bottom: 410px;
+    display: flex;
+    
+    margin-left: 230px;
+    margin-right: 230px;
+    justify-content: space-around;
+
+} */
+.sht1{
+    /* border: 2px solid #B2D3FB; */
+    
+}
+.sht{
+    display: flex;
+    padding: 17px;
+    background-image:linear-gradient(90.06deg, #E1ECFD 0.03%, #F5FAFF 90.98%);
+    margin: 0px 230px;
+    border-radius: 5px;
+    border: 2px solid #B2D3FB;
+}
+.sht h5{
+    margin-left: 200px;
+}
+.sht p{
+    position: relative;
+    left: 5px;
+    color: grey;
+
+}
+.sht a{
+    position: relative;
+    left: 10px;
+}
+.dl{
+    background-image: url(https://razorpay.com/build/browser/static/x-dark-bg.0bc3bc00.svg);
+    background-repeat: no-repeat; 
+    background-size: 196% 100%;
+    background-position-x:-390px ;
+}
+.dash1{
+    margin:5% 500px;
+    color: aliceblue;
+}
+.dash1 h2{
+    font-size: 30px;
+    color: #00FFD1;
+    position: relative;
+    left: 220px;
+    
+}
+.picimg1{
+    margin-left: -25px;
+}
+.txtpic1{
+    
+    position: relative;
+    color: aliceblue;
+    bottom: 55px;
+    /* margin-bottom: 220px; */
+    margin-left: 230px;
+    margin-right: 230px;
+    display:flex;
+    border: 1px solid grey;
+    border-radius: 7px;
+    background-color: #181C2E;
+}
+.pictxt1{
+    padding-left: 40px;
+    padding-top: 40px;
+    
+    margin-left: -8px;
+    
+
+}
+.txt11{
+    font-size: 20px;
+    /* border: 1px solid red; */
+    width: 316px;
+}
+.txt22 li{
+    list-style: none;
+    margin: 20px;
+    position: relative;
+    right: 55px;
+
+}
+.txtbtn1{
+    position: relative;
+    top: 30px;
+}
+.btn7{
+    background-color:#2B84EA;
+    height: 40px;
+    color: white;
+    width: 130px;
+    border-radius: 3px;
+    border: none;
+}
+.btn8{
+    background-color: #181C2E;
+    color: #2B84EA;
+    height: 40px;
+    width: 130px;
+    border: none;
+    
+}
+.ff1{
+    color: #181C2E;
+    transform: rotate(125deg);
+    border-bottom: 2px solid rgb(140,255,205);
+    border-right: 2px solid rgb(140,255,205);
+    display: inline-block;
+    rotate: -70deg;
+}
+.pppff{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    margin: 0px 200px;
+    
+}
+.pppff :hover{
+    box-shadow: 1px 1px 10px 15px rgba(11, 11, 11, 0.2);
+}
+/* .pp{
+    width: 71.5%;
+    position: relative
+    bottom: 210px;
+    display: flex;
+   
+    margin-left: 230px;
+    margin-right: 230px;
+    justify-content: space-around;
+
+} */
+.ppp1{
+    /* border: 2px solid red; */
+    width:60%;
+    border: 1px solid  grey;
+    padding:50px ;
+    position: relative;
+    left: 27px;
+    font-size: 21px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.ppp1 h1{
+    position: relative;
+    right: 29px;
+    
+    color: white;
+    font-size: 21px;
+    position: relative;
+    bottom: 25px;
+    
+}
+.ppp1 p{
+    position: relative;
+    right: 29px;
+    color: #868A9B;
+    font-size: 16px;
+}
+.ppp1 button{
+    position: relative;
+    top: 30px;
+    right: 49px;
+    
+    font-size: 15px;
+    color: #1678E8;
+    
+
+}
+
+.ppp2{
+    /* border: 2px solid red; */
+    width: 60%;
+    padding:50px ;
+    font-size: 21px;
+    margin: 15px;
+    border-radius: 5px;
+    position: relative;
+    left: 27px;
+    border: 1px solid  #E2E2E2;
+}
+.ppp2 h1{
+    position: relative;
+    right: 29px;
+    color: white;
+    font-size: 21px;
+    position: relative;
+    bottom: 25px;
+    
+}
+ .ppp2 p{
+    position: relative;
+    right: 29px;
+    color: #868A9B;
+    font-size: 16px;
+}
+.ppp2 button{
+    position: relative;
+    top: 29px;
+    right: 49px;
+    font-size: 15px;
+    color: #1678E8;
+    
+
+}
+.ppp3{
+    position: relative;
+    left: 27px;
+    /* border: 2px solid red; */
+    width: 60%;
+    padding:50px ;
+    font-size: 21px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid  #E2E2E2;
+}
+.ppp3 h1{
+    position: relative;
+    right: 29px;
+    color: white;
+    font-size: 21px;
+    position: relative;
+    bottom: 25px;
+    
+}
+.ppp3 p{
+    position: relative;
+    right: 29px;
+    color: #868A9B;
+    font-size: 16px;
+}
+.ppp3 button{
+    position: relative;
+    top: 29px;
+    right: 49px;
+    font-size: 15px;
+    color: #1678E8;
+    
+
+}
+.btn9{
+    background-color:#181C2E ;
+    color: #0B72E7;
+    height: 40px;
+    width: 130px;
+    border: none;
+    
+}
+.sht22{
+    display: flex;
+    padding: 30px;
+    /* background-image:linear-gradient(90.06deg, #E1ECFD 0.03%, #F5FAFF 90.98%); */
+    margin: 0px 230px;
+    background-color: #181C2E;
+    border-radius: 5px;
+    border: 2px solid #B2D3FB;
+    font-size: 20px;
+    color: white;
+}
+.sht22 p{
+    margin-left: 120px;
+}
+.btn10{
+    background-color: #2B84EA;
+    color: white;
+    height:200%;
+    border: none;
+    border-radius: 5px;
+
+}
+.section5{
+    border: 2px solid blue;
+}
+.section5-1{
+    display: grid;
+    grid-template-columns: repeat(3,399px);
+    border: 2px solid red;
+    margin: 0% 9%;
+}
+.section5-txt{
+    background-color: #181C2E;
+}
+.section5-tt{
+    
+}
+.section5-tp{
+    border: 2px solid orange;
+    margin: 8%;
+    height: 300px;
+    width: 347px;
+}
+.section5-tb{
+    border: 2px solid orange;
+    margin: 8%;
+    height: 277px;
+    width: 347px;
+}
+.svginsec5{
+    background-color: #286CD5;
+    border-radius: 10px;
+}
+.btn11{
+    background-color: white;
+    color: #286CD5;
+    height: 40px;
+    width: 130px;
+    border: none;
+    
+}
+
+
+
+@media screen and (max-width: 390px) {
+    body {
+      background-color: lightgreen;
+    }
+    .nav1{
+        display: hidden;
+
+    }
+  }

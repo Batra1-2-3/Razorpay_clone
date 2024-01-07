@@ -1,6 +1,7 @@
 # Razorpay Front Page Clone
 
-![Razorpay Front Page Clone]
+
+![image](https://github.com/Batra1-2-3/Razorpay_clone/assets/109741876/caa1a899-c3ce-44db-939e-7232e607521d)
 
 
 
